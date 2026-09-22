@@ -6,7 +6,9 @@ Draw digits (0-9) directly on your browser screen using your mouse or touch inpu
 
 ---
 
-## 🚀 Quick Start (Web App)
+## Try the app [here](https://ocr-web-chi-silk.vercel.app)
+
+## Try running it locally(Web App)
 
 1. **Run the startup script**:
    ```bash
@@ -20,17 +22,17 @@ Draw digits (0-9) directly on your browser screen using your mouse or touch inpu
 
 ---
 
-## ✨ Features
+## Features
 
-- 🎨 **Interactive Drawing Canvas**: Draw using mouse or touch input with adjustable brush sizes.
-- ⚡ **Real-Time Auto-Prediction**: Instantly updates predictions as you draw on the canvas.
-- 🔍 **Model Preview**: View the 28x28 preprocessed input image after centering, cropping, and blurring to see exactly what the model processes.
-- 📊 **Probability Distribution**: Detailed confidence breakdown across all digits (0–9).
-- 🧠 **Pre-trained ONNX Model**: Utilizes `handwriting_model.onnx` with OpenCV image processing matching standard MNIST normalization.
+- **Interactive Drawing Canvas**: Draw using mouse or touch input with adjustable brush sizes.
+- **Real-Time Auto-Prediction**: Instantly updates predictions as you draw on the canvas.
+- **Model Preview**: View the 28x28 preprocessed input image after centering, cropping, and blurring to see exactly what the model processes.
+- **Probability Distribution**: Detailed confidence breakdown across all digits (0–9).
+- **Pre-trained ONNX Model**: Utilizes `handwriting_model.onnx` with OpenCV image processing matching standard MNIST normalization.
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 - `app.py`: Flask web server & OpenCV preprocessing backend.
 - `templates/index.html`: Responsive HTML5 drawing UI & model prediction dashboard.
