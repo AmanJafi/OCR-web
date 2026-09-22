@@ -1,0 +1,31 @@
+# Virtual Environment
+venv/
+ENV/
+env/
+
+# Compiled Binaries
+digit_draw
+drawai
+*.o
+*.out
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Models and Training Artifacts
+saved_model/
+*.h5
+# handwriting_model.onnx  # Uncomment if you want to keep the model out of version control
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+project_explanation.md
